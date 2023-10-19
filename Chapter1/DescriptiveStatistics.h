@@ -14,8 +14,8 @@ private:
 	//will hold the data that is in the files
 	vector<double> data;
 public:
-	//defautl constructor
-	DescriptiveStatistics() = default;
+	//defualt constructor
+	DescriptiveStatistics() {};
 
 	//checking if data is empty
 	bool isEmpty() const;
